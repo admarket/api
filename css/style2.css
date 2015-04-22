@@ -1,0 +1,87 @@
+body{
+    background-color: #f6f6f6;
+    font-size: 12px;margin: 0;
+    padding: 10px;
+    color: #555;
+    /*text-shadow: 0px 1px 1px #eee;*/
+}
+
+
+.header{padding: 0 20px; border-bottom:solid 1px #f6f6f6; background-color: #fff;}
+
+.nav-head{margin-bottom:-1px;margin-top:10px;border:0;padding-bottom: 0px;}
+.nav-head a{ margin-left: 30px; color: #000;}
+
+a{ cursor: pointer;color: #999;}
+a:hover{color: #00b040;}
+.bold{font-weight: bold;}
+.ui .mini .green .button{background-color: #00b040;}
+.green-btn{background-color: #00b040;}
+.ui .list .item{
+    border-radius: 0;
+}
+.ui .list .item .header{
+ padding: 10px;}
+
+.ui .list .item .description{
+    padding: 10px;
+    color: #999;
+}
+
+.ui .list .item:hover{border-radius: 0;}
+.nav-bar { background-color: #fff;
+    font-size: 14px;
+    padding:20px 30px;
+    border: solid 1px #f6f6f6;
+}
+.item-group{border-bottom: solid 1px #f6f6f6;}
+.item-group p{padding: 20px;line-height: 25px;}
+
+.left-nav .title{padding: 10px;font-weight: bold;border-bottom: solid 1px #f6f6f6;}
+.left-nav a{display: block;padding:8px 10px;margin-left: 30px;font-size: 12px;}
+.left-nav a.current{font-weight: bold;color: #555;}
+.left-nav a:hover{background-color: #00b040;color: #fff;}
+.main{border: solid 1px #f6f6f6; }
+.main-head{
+    border-bottom:solid 1px #f6f6f6;
+    background-color: #fff;
+    text-align: center;
+}
+.main-head a{display: inline-block;padding: 10px 5px;
+    border-bottom: solid 3px #fff;margin: 0px 10px;
+    font-size: 12px;
+}
+.main-head a.current{border-bottom: solid 3px #00b040;font-weight: bold;color: #555;}
+.main-head a:hover{border-bottom: solid 3px #00b040;}
+
+.main-content{
+    margin: 20px;background-color: #fff;
+    padding: 10px;
+  
+}
+.ui .pagination{
+    padding: 10px 10px;
+}
+.ui .pagination a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border-radius: 3px;
+}
+.ui .pagination a:hover{
+    background-color: #00b040;
+    color: #fff;
+    border:solid 1px  #00b040;
+
+}
+.ui .pagination a.current{
+    border:solid 1px #ccc;
+    border-radius: 3px;
+}
+.footer{
+    padding:20px; 
+    border-bottom:solid 1px #f6f6f6;
+    border-top:solid 1px #f6f6f6;
+    background-color: #fff;
+}
