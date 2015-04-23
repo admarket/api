@@ -14,7 +14,7 @@ $spConfig = array(
                 'host' => 'localhost',  // 数据库地址，一般都可以是localhost
                 'port' => '3306', //数据库服务器端口号
                 'login' => 'root', // 数据库用户名
-                'password' => '', // 数据库密码
+                'password' => '123456', // 数据库密码
                 'database' => 'api', // 数据库的库名称
                 'driver' => 'mysqli',
         ),
@@ -70,6 +70,6 @@ $spConfig = array(
                 ),
         ),
 );
-header("Content-type: text/html; charset=utf-8"); 
+header("Content-type: text/html; charset=utf-8");
 require(SP_PATH."/SpeedPHP.php");
 spRun();
