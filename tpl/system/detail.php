@@ -10,7 +10,7 @@
     <!--header content-->
     <!-- load head tpl -->
     <div style="background-color:#fff;margin:40px auto;width:70%;border:solid 1px #dedede;padding:40px;line-height:30px;font-size:14px;" >
-      
+
         <div style="border-bottom:solid 1px #f6f6f6;">
             <a href="/" title="home">
               <img  border="0"  title="api" alt="api" src="/img/logo.png"/>
@@ -24,28 +24,25 @@
             </a>
         </div>
         <div class="ui small form segment" style="border:solid 2px #fff;box-shadow:none;">
-          
+
           <div class="two fields" >
               <div class="field">
-                  <label>Data Format:</label>
-                  <{foreach from=$data.format_tags item=tag}>
-                    <a class="ui blue label"><{$tag}></a>
-
-                  <{/foreach}>
+                    <label>Data Format:</label>
+                    <a class="ui blue label"><{$data.format}></a>
               </div>
               <div class="field">
                   <label>Category:</label>
                   <a class="ui label"><{$data.category.name}></a>
               </div>
-              
+
           </div>
           <div class="two fields" >
               <div class="field">
                   <label>Price:</label>
-                  
+
                   <{if $data.price_number == 0}>
                     <a class="ui green label">Free</a>
-                    
+
                   <{else}>
                     <a class="ui red label"><{$data.price_number}><{$data.price_unit}> / Call</a>
                   <{/if}>
@@ -62,7 +59,7 @@
           <div class="two fields" >
               <div class="field">
                   <label>Developer Token Required:</label>
-                  
+
                   <{if $data.token_require == 0}>
                     <a class="ui red label">Yes</a>
                   <{else}>
@@ -80,14 +77,14 @@
           </div>
           <div class="two fields" >
               <div class="field">
-                  <label>Provider:</label> 
+                  <label>Provider:</label>
                   <a class="ui label"><{$data.provider_url}></a>
               </div>
               <div class="field">
                   <label>License:</label>
                   <a class="ui label"><{$data.license}></a>
               </div>
-              
+
           </div>
           <div class="one fields" >
               <div class="field">
@@ -101,7 +98,7 @@
           <div class="one fields" >
               <div class="field">
                   <label>Description:</label>
-                  <div class="ui label" style="font-size:14px;padding:20px;line-height:20px;">
+                  <div class="ui label" style="font-size:14px;padding:20px;line-height:20px;width:90%;">
                     <{$data.description}>
                   </div>
               </div>
