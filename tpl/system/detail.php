@@ -114,6 +114,7 @@
                    if (apis.length > 0) {
                      for(var i = 0;i < apis.length;i++){
                          var api_code = '<div style="width:100%;padding:10px;border-bottom:solid 1px #ededed;line-height:20px;"><div><a style="color:#555;font-weight:bold;" href="<{spUrl c=main a=detail}>?id=' + apis[i].id + '"> '+apis[i].name+'</a></div>';
+                         api_code += '<div class="provider" style="font-size:10px;text-overflow:ellipsis;overflow:hidden;"><a href="' + apis[i].api_url + '">' +  apis[i].api_url + '</a></div>';
                          api_code += '<div class="provider" style="font-size:10px;color:#999;">Provided by :' + apis[i].provider_url + '</div>';
                          api_code += '<div class="ui star rating" data-rating="0"></div>';
 
