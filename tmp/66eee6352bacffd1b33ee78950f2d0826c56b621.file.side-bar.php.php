@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.8, created on 2015-04-19 10:43:31
+<?php /* Smarty version Smarty-3.0.8, created on 2015-04-23 12:01:47
          compiled from "C:\wamp\api/tpl\system/side-bar.php" */ ?>
-<?php /*%%SmartyHeaderCode:1486355336ab3da88a8-54156302%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:265585538c30bdf43f1-33136913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '66eee6352bacffd1b33ee78950f2d0826c56b621' => 
     array (
       0 => 'C:\\wamp\\api/tpl\\system/side-bar.php',
-      1 => 1429433009,
+      1 => 1429717602,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1486355336ab3da88a8-54156302',
+  'nocache_hash' => '265585538c30bdf43f1-33136913',
   'function' => 
   array (
   ),

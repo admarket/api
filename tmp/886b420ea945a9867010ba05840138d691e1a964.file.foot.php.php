@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.8, created on 2015-03-04 09:16:28
+<?php /* Smarty version Smarty-3.0.8, created on 2015-04-23 12:01:48
          compiled from "C:\wamp\api/tpl\system/foot.php" */ ?>
-<?php /*%%SmartyHeaderCode:1134454f6bf5c09bed5-52956198%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:285245538c30c3941f9-61672984%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '886b420ea945a9867010ba05840138d691e1a964' => 
     array (
       0 => 'C:\\wamp\\api/tpl\\system/foot.php',
-      1 => 1420907978,
+      1 => 1429717602,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1134454f6bf5c09bed5-52956198',
+  'nocache_hash' => '285245538c30c3941f9-61672984',
   'function' => 
   array (
   ),
