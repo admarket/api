@@ -10,7 +10,7 @@
     <!--header content-->
     <!-- load head tpl -->
     <div style="background-color:#fff;margin:40px auto;width:60%;border:solid 1px #dedede;padding:40px;line-height:30px;font-size:14px;" >
-      
+
         <div style="border-bottom:solid 1px #f6f6f6;">
             <a href="/" title="home">
               <img  border="0"  title="api" alt="api" src="/img/logo.png"/>
@@ -96,7 +96,7 @@
                       </div>
                   </div>
                   <div class="field">
-                      <label>Provider:</label> 
+                      <label>Provider:</label>
                        <div class="ui input">
                           <input  id="txt-provider" placeholder="api provider name or url" type="text">
                        </div>
@@ -111,12 +111,12 @@
                       <label>Description:</label>
                        <textarea id="txt-description" placeholder="your api short description"></textarea>
                       <div id="msg-description" class="ui red pointing above ui label msg" style="display:none;">
-                          Description should be 6-500 length!
+                          Description should be 6-1000 length!
                       </div>
                   </div>
               </div>
               <div style="padding:20px 0;">
-                <a id="btn-submit" class="ui green mini button green-btn"  style="background-color: #00b040;font-size:10px;">Submit</a> 
+                <a id="btn-submit" class="ui green mini button green-btn"  style="background-color: #00b040;font-size:10px;">Submit</a>
                 </p>
               </div>
 
@@ -126,10 +126,10 @@
             Hi, Dear
             <div style="paddding:40px;margin:20px;">
                 <div>
-                    
+
                     <span  style="color:#00b040;font-weight:bold;">Thanks for your submit!</span>
                     <span>
-                        We need to have a short review for it. Click to 
+                        We need to have a short review for it. Click to
                         <a href="<{spUrl c=main a=index}>" style="text-decoration:underline;color:blue;">home page</a>
                     </span>
                 </div>
@@ -138,7 +138,7 @@
             <div>
                 Best Regards!
             </div>
-        </div>  
+        </div>
     </div>
 <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 <script type="text/javascript">
@@ -150,7 +150,7 @@
     var url = "";
     var provider = "";
     var description = "";
-    
+
     $('.ui.checkbox').checkbox();
     $('select.dropdown').dropdown();
     $('#btn-submit').click(function(){
@@ -166,11 +166,11 @@
                     }else{}
                 });
         }
-    
+
     });
 
     loadCategory();
-    
+
     function loadCategory(){
         $.post('<{spUrl c=ccategory a=getJsonData}>',function(data) {
                 if(data!="0"){
@@ -267,7 +267,7 @@
         }
         //check description
         description = $.trim($('#txt-description').val());
-        if(description.length < 6 || description.length >50){
+        if(description.length < 6 || description.length >1000){
             $('#msg-description').show();
             check_result = false;
         }else{
